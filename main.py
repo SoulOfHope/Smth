@@ -1,7 +1,9 @@
 import os
 import time
 admpass = os.environ['ADM_PASS']
-my_secret = os.environ['OwnerMCode']
+OwnerCode = os.environ['OwnerCode']
+OHB = os.environ['OHB']
+JEvans = os.environ['JEvans']
 print('Code start log: Log num 52834569617')
 time.sleep(2)
 seconds=time.time()
@@ -58,8 +60,30 @@ else:
 	if member ==('y'):
 		print('Enter your member code: ')
 		memcode=input('')
-		if memcode==OwnerMCode:
-			print()
-		elif memcode==:
+		if memcode==(JEvans):
+			print('Hello',name+', Acc num:001')
+			exit=(True)
+			while exit==(True):
+				ops=input('What would you like to do? (Calc or Exit or App or Access)')
+				ops=ops.lower()
+				if ops==('calc'):
+					print('')
+				elif ops==('app'):
+					print('')
+				elif ops==('access'):
+					print('')
+				elif ops==('exit'):
+					print('Exiting system')
+					exit=(False)
+				else:
+					print('')
+		else:
+			print('Exiting')
 	else:
-		print()
+		print('Are you the Owner? (Y or N)')
+		own=input()
+		own=own.lower()
+		if own==('y'):
+			print()
+		else:
+			print()
