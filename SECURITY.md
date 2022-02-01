@@ -22,4 +22,4 @@ If the issue is valid and identified you can expect higher system roles, and pos
 
 If not nothing will be done
 
-Reporting false issues commonly will result in account deactivation
+Reporting false issues commonly will result in account deactivation or deletion
